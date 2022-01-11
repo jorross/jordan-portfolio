@@ -29,6 +29,13 @@ header li {
     margin: 2px 8px;
 }
 
+.hero {
+    border-style: solid;
+    width: 100%;
+    height: 300px;
+    background-image: url("https://previews.123rf.com/images/teafancier/teafancier1209/teafancier120900029/15512323-light-blue-painted-weathered-wooden-fence-texture.jpg");
+}
+
 .about {
     height: 200px;
     width: 100%;
@@ -94,8 +101,6 @@ header li {
 .work div {
     display: inline-block;
     border-color: lightblue;
-    /* width: 600px;
-    height: 200px; */
 }
 
 .surf {
@@ -110,6 +115,7 @@ header li {
     height: 50px;
     width: 100px;
     top: 70%;
+    text-align: center;
 }
 
 .wall {
