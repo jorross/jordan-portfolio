@@ -1,0 +1,173 @@
+header {
+    background-color: grey;
+    height: 100px;
+}
+
+header h1 {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 300%;
+    height: 50px;
+    width: 400px;
+}
+
+header ul {
+    display: inline-flex;
+    color: aqua;
+    position: absolute;
+    left: 75%;
+    top: 35px;
+    font-size: 130%;
+}
+
+header li {
+    text-decoration: underline;
+    text-decoration-thickness: 25%;
+    margin: 2px 8px;
+}
+
+.about {
+    height: 200px;
+    width: 100%;
+}
+
+.about h2{
+    text-align: end;
+    font-size: 300%;
+    color: blue;
+    height: 100%;
+    width: 30%;
+    padding-top: 50px;
+    padding-right: 10px;
+    border-style: solid;
+    border-right-color: darkblue;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.about p {
+    position: relative;
+    text-align: end;
+    bottom: 50%;
+    right: 200px;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+}
+
+.work h2{
+    display: flex;
+    border-style: solid;
+    border-right-color: darkblue;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    justify-content: right;
+    font-size: 300%;
+    color: blue;
+    height: 100%;
+    width: 30%;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+
+.work figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    padding-left: 20px;
+    top: 0;
+}
+
+.work div {
+    display: inline-block;
+    border-color: lightblue;
+    /* width: 600px;
+    height: 200px; */
+}
+
+.surf {
+    border-style: solid;
+    width: 100%;
+    background-image: url("https://www.rd.com/wp-content/uploads/2020/04/GettyImages-1129886007-scaled.jpg?resize=700,466");
+}
+
+.label {
+    position: relative;
+    background-color: darkgray;
+    height: 50px;
+    width: 100px;
+    top: 70%;
+}
+
+.wall {
+    border-style: solid;
+    width: 50%;
+    background-image: url("https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits-e1534462771127.png");
+}
+
+.calculator {
+    border-style: solid;
+    width: 50%;
+    background-image: url("https://media.wired.com/photos/5c83066025da7204699767c7/16:9/w_2400,h_1350,c_limit/calculator-1470.jpg");
+}
+
+.puzzle {
+    border-style: solid;
+    width: 50%;
+    background-image: url("https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2020/04/How-To-Get-Better-At-Puzzles-gear-patrol-lead-feature-V2.jpg");
+}
+
+.run {
+    border-style: solid;
+    width: 50%;
+    background-image: url("https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2019/04/6-Running-Apps-to-Help-Build-Speed-gear-patrol-lead-full.jpg");
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact h2{
+    text-align: end;
+    font-size: 300%;
+    color: blue;
+    height: 100%;
+    width: 30%;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-right-color: darkblue;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.contact ul {
+    display: inline-flex;
+    color: aqua;
+    position: relative;
+    font-size: 130%;
+    margin: 50px 20px 20px 100px;
+}
+
+.contact li {
+    text-decoration: underline;
+    text-decoration-thickness: 25%;
+    margin: 20px;
+}
