@@ -44,7 +44,7 @@ header li {
 .about h2{
     text-align: end;
     font-size: 300%;
-    color: blue;
+    color: dodgerblue;
     height: 100%;
     width: 30%;
     padding-top: 50px;
@@ -81,7 +81,7 @@ header li {
     border-left: none;
     justify-content: right;
     font-size: 300%;
-    color: blue;
+    color: dodgerblue;
     height: 100%;
     width: 30%;
     padding-top: 50px;
@@ -160,7 +160,7 @@ header li {
 .contact h2{
     text-align: end;
     font-size: 300%;
-    color: blue;
+    color: dodgerblue;
     height: 100%;
     width: 30%;
     padding-top: 50px;
