@@ -37,6 +37,9 @@ header li {
 }
 
 .about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 200px;
     width: 100%;
 }
@@ -57,10 +60,12 @@ header li {
 }
 
 .about p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position: relative;
-    text-align: end;
-    bottom: 50%;
-    right: 200px;
+    top: 50%;
+    left: 5%;
     font-size: 18px;
 }
 
